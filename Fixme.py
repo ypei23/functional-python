@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 '''
-Your solution for each function should be only a single line long.
-In particular, you may not use any loops when implementing these functions;
-instead, you must use either the map and filter functions or list comprehensions.
+Complete each function below so that the test cases pass.
+Your solutions should use the map and filter functions,
+and not for loops or list comprehensions.
 '''
 
 def evens(n):
@@ -55,7 +55,6 @@ def small_words(text):
     >>> small_words('a big word is bad')
     ['a', 'big', 'word', 'is', 'bad']
     '''
-    return [ word for word in text.split() if len(word)<=4 ]
 
 
 def squares(n):
