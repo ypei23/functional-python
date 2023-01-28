@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''
 Complete each function below so that the test cases pass.
-Your solutions should use the map and filter functions,
+Your solutions should use the map functions,
 and not for loops or list comprehensions.
 '''
 
